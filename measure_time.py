@@ -1,7 +1,5 @@
 __author__ = 'ubuntu'
 
-import multiply_my_way
-import multiply_with_numpy
 import timeit
 
 scripts = [multiply_my_way, multiply_with_numpy]
