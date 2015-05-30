@@ -35,5 +35,6 @@ def multiply(first, second):
         raise NotMatrixError
         print('only matrixes allowed')
 
-first_matrix, second_matrix = load_matrixes()
-multiply(first_matrix, second_matrix)
+def main():
+    first_matrix, second_matrix = load_matrixes()
+    multiply(first_matrix, second_matrix)
