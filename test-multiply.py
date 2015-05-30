@@ -18,7 +18,11 @@ class KnownValues(unittest.TestCase):
 class toMatrixBadInput(unittest.TestCase):
     def testNotMatrix(self):
         """should fail with input other than matrix"""
-        self.assertRaises(multiply_my_way.NotMatriXError, multiply_my_way.multiply, 99)
+        self.assertRaises(TypeError, multiply_my_way.multiply, 99, 11)
+
+    def testWrongSizeMatrix(self):
+        """matrix multiplying is allowed only if A[i x j] and B[j x k]"""
+        self.assertRaises(multiply_my_way.DifferentSizeMatriXError, multiply_my_way.multiply, [[1],[1]], [[1],[1],[1]])
 
 if __name__ == '__main__':
     unittest.main()
