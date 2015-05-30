@@ -7,8 +7,9 @@ time measured with timeit module
 results:
 
 -matrixes 10x10:
-	-Multiply with multiply_my_way:  0.001s
-	-Multiply with multiply_with_numpy:  0.0007s
+	Multiply with multiply_my_way:  0.001s
+	Multiply with multiply_with_numpy:  0.0007s
+
 
 -matrixes 100x100:
 	Multiply with multiply_my_way:  0.3295s
