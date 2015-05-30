@@ -2,7 +2,7 @@ __author__ = 'ubuntu'
 
 import random
 
-size = 2
+size = 10 # size of builded square matrixes
 
 def make(size):
     first = [[random.randint(1,100) for x in range(size)] for x in range(size)]
