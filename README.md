@@ -15,8 +15,8 @@ results:
 	Multiply with multiply_my_way:  0.3295s
 	Multiply with multiply_with_numpy:  0.0412s
 
--matrixes 1000x1000:	
-	Multiply with multiply_my_way:  343.634s
+-matrixes 1000x1000:
+	Multiply with multiply_my_way:  343.634s	
 	Multiply with multiply_with_numpy:  5.5368s
 
 
